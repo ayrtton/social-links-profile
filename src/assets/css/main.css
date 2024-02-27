@@ -1,5 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media (min-width: 2500px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+  body {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 2500px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  body {
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 2000px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1500px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  body {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 0.6rem;
+  }
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter";
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 75%;
+  background-color: hsl(0, 0%, 12%);
+  width: 25%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

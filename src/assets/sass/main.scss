@@ -1,1 +1,21 @@
-@import './config';
+@import './config', './mixins', './media-queries';
+
+body {
+    background-color: $off_black;
+    color: $white;
+    font-family: 'Inter';
+}
+
+main {
+    @include flexbox(100vh);
+}
+
+#card {
+    @include flexbox(75%);
+    background-color: $dark_grey;
+    width: 25%;
+}
+
+footer {
+    @include flexbox;
+}

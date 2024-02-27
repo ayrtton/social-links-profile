@@ -1,0 +1,18 @@
+@mixin flexbox($height: auto) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: $height;
+}
+
+@mixin font_sizes($size_01, $size_02) {
+    h1 {
+        font-size: $size_01;
+    }
+
+    body {
+        font-size: $size_02;
+    }
+}
