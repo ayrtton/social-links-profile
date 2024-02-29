@@ -57,6 +57,7 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
   height: 100vh;
 }
 
@@ -66,9 +67,41 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
   height: 75%;
   background-color: hsl(0, 0%, 12%);
   width: 25%;
+  border-radius: 0.8vw;
+  padding: 2vw;
+}
+#card #profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 45%;
+  justify-content: space-between;
+  padding: 1vw;
+}
+#card #image {
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  width: 25%;
+}
+#card #image img {
+  width: 100%;
+}
+#card #links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 55%;
 }
 
 footer {
@@ -77,5 +110,6 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+  width: 100%;
   height: auto;
 }/*# sourceMappingURL=main.css.map */

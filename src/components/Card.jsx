@@ -5,9 +5,13 @@ function Card() {
         <main>
             <div id="card">
                 <div id="profile-info">
-                    <img src={profileImage} alt="" srcSet="" />
-                    <h1>Jessica Randall</h1>
-                    <span>London, United Kingdom</span>
+                    <div id="image">
+                        <img src={profileImage} alt="" srcSet="" />
+                    </div>
+                    <div>
+                        <h1>Jessica Randall</h1>
+                        <span>London, United Kingdom</span>
+                    </div>
                     <p>{'"'}Front-end developer and avid reader.{'"'}</p>
                 </div>
                 <div id="links">
