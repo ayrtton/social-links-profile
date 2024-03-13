@@ -4,15 +4,15 @@ function Card() {
     return (
         <main>
             <div id="card">
-                <div id="profile-info">
+                <div id="profile">
                     <div id="image">
                         <img src={profileImage} alt="" srcSet="" />
                     </div>
-                    <div>
+                    <div id="info">
                         <h1>Jessica Randall</h1>
                         <span>London, United Kingdom</span>
                     </div>
-                    <p>{'"'}Front-end developer and avid reader.{'"'}</p>
+                    <p id="caption">{'"'}Front-end developer and avid reader.{'"'}</p>
                 </div>
                 <div id="links">
                     <div className="social-link">GitHub</div>

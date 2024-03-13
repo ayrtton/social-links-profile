@@ -13,29 +13,58 @@ main {
 #card {
     @include flexbox(75%);
     background-color: $dark_grey;
-    width: 25%;
+    width: 24%;
     border-radius: .8vw;
     padding: 2vw;
 
-    #profile-info {
+    #profile {
         @include flexbox(45%);
         justify-content: space-between;
         padding: 1vw;
-    }
 
-    #image {
-        border-radius: 50%;
-        overflow: hidden;
-        aspect-ratio: 1 / 1;
-        width: 25%;
+        #image {
+            border-radius: 50%;
+            overflow: hidden;
+            aspect-ratio: 1 / 1;
+            width: 30%;
+    
+            img {
+                width: 100%;
+            }
+        }
 
-        img {
-            width: 100%;
+        #info {
+            @include flexbox(30%);
+            gap: 1vh;
+            
+            span {
+                color: $green;
+            }
+        }
+
+        #caption {
+            color: $light_grey;
         }
     }
 
     #links {
         @include flexbox(55%);
+        gap: 2vh;
+
+        .social-link {
+            @include flexbox(15%);
+            width: 100%;
+            background-color: $grey;
+            border-radius: .4vw;
+            transition: .7s;
+
+            &:hover {
+                background-color: $green;
+                color: $grey;
+                font-weight: 600;
+                cursor: pointer;
+            }
+        }
     }
 }
 
