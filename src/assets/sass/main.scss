@@ -69,5 +69,19 @@ main {
 }
 
 footer {
-    @include flexbox;
+    @include flexbox(10vh);
+
+    p {
+        margin: 0.7vh;
+    }
+
+    a {
+        text-decoration: none;
+        transition: .5s;
+        color: $green;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
