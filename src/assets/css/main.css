@@ -39,10 +39,44 @@
 }
 @media (max-width: 1000px) {
   h1 {
+    font-size: 2rem;
+  }
+  body {
+    font-size: 1.2rem;
+  }
+  main #card {
+    width: 60%;
+    padding: 4vw;
+    border-radius: 1.8vh;
+  }
+  main #profile {
+    padding-bottom: 2.5vh !important;
+  }
+  main .social-link {
+    border-radius: 1vh !important;
+  }
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  main #card {
+    width: 375px;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
     font-size: 1rem;
   }
   body {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
+  }
+  main #card {
+    height: 450px;
+    width: 80%;
   }
 }
 body {

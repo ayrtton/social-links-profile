@@ -17,5 +17,42 @@
 }
 
 @media (max-width: 1000px) {
-    @include font_sizes(1rem, .6rem);
+    @include font_sizes(2rem, 1.2rem);
+
+    main {
+        #card {
+            width: 60%;
+            padding: 4vw;
+            border-radius: 1.8vh;
+        }
+
+        #profile {
+            padding-bottom: 2.5vh !important;
+        }
+
+        .social-link {
+            border-radius: 1vh !important;
+        }   
+    }
+}
+
+@media (max-width: 700px) {
+    @include font_sizes(1.6rem, 1rem);
+
+    main {
+        #card {
+            width: 375px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    @include font_sizes(1rem, .65rem);
+
+    main {
+        #card {
+            height: 450px;
+            width: 80%;
+        }
+    }
 }
